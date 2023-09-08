@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to-do list application</title>
+    <link rel="stylesheet" href="todolist.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fontawesome.com/v5/icons/circle?f=classic&s=regular" rel="stylesheet">
+    
+</head>
+<body>
+    <img src="bg.jpeg">
+    
+        <div class="heading">
+            <h1>MY TO-DO LIST</h1>
+            <input type="text" id="inp" placeholder="Enter your task" >
+            <button onclick="add()">Add</button>
+        </div>
+        <div class="tasks"></div>
+      
+    <div class="desc">
+        <h3 id="h">Description:</h5>
+        <span id="pdesc">P: Primary(important task)</span><br>
+        <span id="sdesc">S: Secondary(less important task)</span><br>
+        <span id="cdesc">C: Completed task</span><br>
+        <span id="cleardesc">x: Clear color</span><br>
+    </div>
+    <script src="todo.js"></script>
+</body>
+</html>

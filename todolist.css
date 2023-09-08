@@ -1,0 +1,125 @@
+body,html{
+    height: 100%;
+}
+    
+.heading{
+    background-color: rgb(255, 255, 255);
+    height: 150px;
+    width: 500px;
+    margin-left: 500px;
+    margin-top:100px;
+    position:fixed ;
+    color: rgb(15, 15, 15);
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 5px 5px 6px #7338df;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   text-shadow: 2px 2px 2px rgb(190, 188, 186);
+}
+button{
+    background-color: blueviolet;
+    color: #f7f4f4;
+    width:70px;
+}
+input{
+    width: 250px;
+}
+.tasks{
+    height: auto;
+    width: 500px;
+    margin-left:500px;
+    margin-top: 270px;
+    position: absolute;
+}
+button:hover{
+    background-color: rgb(152, 68, 231);
+    color: #f7f4f4;
+    width:70px;
+    height: 30px;
+    box-shadow:2px 2px 2px black;
+    cursor:pointer;
+}
+.tasks ul{
+    color: rgb(15, 15, 15);
+    font-weight: bold;
+    font-size: large;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   background-color: #f3f1f1;
+   height:30px;
+   padding-top: 7px;
+   
+}
+.material-icons{
+    right:10px;
+    position:absolute;
+    cursor:pointer;
+    color: rgb(87, 98, 107);
+   
+}
+img{
+    filter:blur(2px);
+    height: 100%;
+    width:100%;
+    position: fixed; /* Sit on top of the page content */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: contain;
+}
+#p{
+    color:rgb(196, 11, 11);
+    right: 70px;
+    position:absolute;
+    cursor:pointer;
+}
+#s{
+    color:rgb(49, 49, 243);
+    right: 55px;
+    position:absolute;
+    cursor:pointer;
+}
+#c{
+    color:rgb(23, 221, 16);
+    right: 40px;
+    position:absolute;
+    cursor:pointer;
+}
+#x{
+    color:rgb(9, 9, 9);
+    right: 90px;
+    position:absolute;
+    cursor:pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.desc{
+    margin-left: 1050px;
+    margin-top:110px;
+    position:absolute;
+    background-color: rgb(119, 78, 224);
+    border-radius:5px;
+    padding: 8px;
+    color:whitesmoke;
+    box-shadow:5px 5px 5px #262424;
+    
+}
+#h{
+    color: black;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size: larger;
+}
+#pdesc{
+    color: red;
+}
+#sdesc{
+    color: rgb(12, 47, 201);
+}
+#cdesc{
+    color: rgb(54, 218, 87);
+}
+#cleardesc{
+    color: rgb(231, 227, 227);
+}
